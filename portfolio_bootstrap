@@ -1,0 +1,111 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Raziullah | Portfolio</title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #f8f9fa;
+    }
+
+    .profile-card {
+      max-width: 800px;
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container py-5">
+
+    <div class="profile-card mx-auto">
+
+      <header class="text-center mb-5">
+        <h1 class="fw-bold">Muhammad Raziullah</h1>
+
+        <p class="lead text-secondary">
+          BS Computer Science Student | Flutter Developer | Aspiring Software Engineer
+        </p>
+
+        <a class="btn btn-dark" href="#" target="_blank">
+          My Portfolio
+        </a>
+      </header>
+
+      <section class="mb-4">
+        <h2 class="h4 border-bottom pb-2">About Me</h2>
+
+        <p>
+          I am Muhammad Raziullah, a BS Computer Science student at Air University Islamabad.
+          I am passionate about mobile application development, software engineering,
+          and modern technologies. I enjoy building practical projects using Flutter,
+          Firebase, SQLite, and web technologies.
+        </p>
+      </section>
+
+      <section class="mb-4">
+        <h2 class="h4 border-bottom pb-2">Skills</h2>
+
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge text-bg-primary">Flutter</span>
+          <span class="badge text-bg-primary">Dart</span>
+          <span class="badge text-bg-primary">Firebase</span>
+          <span class="badge text-bg-primary">HTML</span>
+          <span class="badge text-bg-primary">CSS</span>
+          <span class="badge text-bg-primary">Bootstrap</span>
+          <span class="badge text-bg-primary">C++</span>
+          <span class="badge text-bg-primary">C#</span>
+          <span class="badge text-bg-primary">SQL</span>
+          <span class="badge text-bg-primary">Object Oriented Programming</span>
+        </div>
+      </section>
+
+      <section class="mb-4">
+        <h2 class="h4 border-bottom pb-2">Education</h2>
+
+        <p>
+          <strong>BS Computer Science</strong><br>
+          Air University Islamabad
+        </p>
+
+        <p class="mb-0">
+          Currently pursuing my degree with a focus on software development,
+          mobile computing, and database systems.
+        </p>
+      </section>
+
+      <section class="mb-4">
+        <h2 class="h4 border-bottom pb-2">Projects</h2>
+
+        <ul>
+          <li>GafEnergy Planner – Solar System Sizing Application</li>
+          <li>Flutter To-Do List with Firebase</li>
+          <li>Library Management System</li>
+          <li>Student Attendance Management App</li>
+        </ul>
+      </section>
+
+      <footer class="border-top pt-3 text-center text-secondary">
+        <p class="mb-0">
+          © 2026 Muhammad Raziullah | BSCS Student | Air University Islamabad
+        </p>
+      </footer>
+
+    </div>
+
+  </main>
+
+</body>
+
+</html>
+```
