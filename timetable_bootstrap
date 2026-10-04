@@ -1,0 +1,141 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Class Schedule</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background: #eef2f7;
+        }
+
+        .schedule-header{
+            background: linear-gradient(90deg,#0d6efd,#6610f2);
+            color:white;
+            border-radius:15px;
+            padding:20px;
+            margin-bottom:25px;
+            text-align:center;
+        }
+
+        .table{
+            background:white;
+            border-radius:10px;
+            overflow:hidden;
+        }
+
+        th{
+            white-space: nowrap;
+        }
+
+        .free-slot{
+            color:#6c757d;
+            font-style:italic;
+        }
+
+        .lab{
+            background-color:#fff3cd !important;
+            font-weight:bold;
+        }
+
+        .course{
+            font-weight:500;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container py-4">
+
+    <div class="schedule-header">
+        <h1>BSCS Semester Schedule</h1>
+        <p class="mb-0">Weekly Academic Timetable</p>
+    </div>
+
+    <div class="table-responsive">
+
+        <table class="table table-bordered text-center align-middle">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>Day</th>
+                    <th>08-09</th>
+                    <th>09-10</th>
+                    <th>10-11</th>
+                    <th>11-12</th>
+                    <th>12-01</th>
+                    <th>01-02</th>
+                    <th>02-03</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <th class="table-primary">Monday</th>
+                    <td class="free-slot">Free</td>
+                    <td class="course">FSWD</td>
+                    <td class="course">Linear Algebra</td>
+                    <td colspan="2" class="lab">AI Lab</td>
+                    <td class="free-slot">Free</td>
+                    <td class="course">Operating Systems</td>
+                </tr>
+
+                <tr>
+                    <th class="table-primary">Tuesday</th>
+                    <td class="course">Operating Systems</td>
+                    <td class="course">FSWD</td>
+                    <td class="course">Management</td>
+                    <td class="free-slot">Free</td>
+                    <td class="free-slot">Free</td>
+                    <td class="course">Linear Algebra</td>
+                    <td class="course">Advisory</td>
+                </tr>
+
+                <tr>
+                    <th class="table-primary">Wednesday</th>
+                    <td class="free-slot">Free</td>
+                    <td class="course">DAA</td>
+                    <td class="course">DAA</td>
+                    <td class="free-slot">Free</td>
+                    <td class="free-slot">Free</td>
+                    <td class="free-slot">Free</td>
+                    <td class="course">Artificial Intelligence</td>
+                </tr>
+
+                <tr>
+                    <th class="table-primary">Thursday</th>
+                    <td class="free-slot">Free</td>
+                    <td class="course">DAA</td>
+                    <td class="course">DAA</td>
+                    <td colspan="2" class="lab">OS Lab</td>
+                    <td class="free-slot">Free</td>
+                    <td class="course">Artificial Intelligence</td>
+                </tr>
+
+                <tr>
+                    <th class="table-primary">Friday</th>
+                    <td class="free-slot">Free</td>
+                    <td class="course">Management</td>
+                    <td class="course">Linear Algebra</td>
+                    <td colspan="2" class="lab">FSWD Lab</td>
+                    <td class="free-slot">Free</td>
+                    <td class="free-slot">Free</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+```
