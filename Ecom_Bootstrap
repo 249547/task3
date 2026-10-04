@@ -1,0 +1,101 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Espada Men</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Espada Men</a>
+            <a class="btn btn-outline-light" href="#products">Shop Collection</a>
+        </div>
+    </nav>
+
+    <header class="bg-light text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Welcome to Espada Men</h1>
+            <p class="lead">A Premium Dressing Store for Modern Men</p>
+            <a class="btn btn-dark btn-lg" href="#products">Explore Collection</a>
+        </div>
+    </header>
+
+    <main class="container my-5" id="products">
+        <h2 class="text-center mb-4">Our Premium Collection</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500&q=80"
+                         class="card-img-top"
+                         alt="Classic Suit">
+
+                    <div class="card-body">
+                        <h3 class="h5 card-title">Classic Formal Suit</h3>
+                        <p class="card-text">
+                            Elegant and comfortable formal wear for special occasions.
+                        </p>
+                        <p class="fw-bold">Rs. 24,999</p>
+                        <a href="#" class="btn btn-dark">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&q=80"
+                         class="card-img-top"
+                         alt="Premium Shirt">
+
+                    <div class="card-body">
+                        <h3 class="h5 card-title">Premium Dress Shirt</h3>
+                        <p class="card-text">
+                            Stylish premium shirt designed for a smart and classy look.
+                        </p>
+                        <p class="fw-bold">Rs. 4,999</p>
+                        <a href="#" class="btn btn-dark">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?w=500&q=80"
+                         class="card-img-top"
+                         alt="Leather Jacket">
+
+                    <div class="card-body">
+                        <h3 class="h5 card-title">Luxury Leather Jacket</h3>
+                        <p class="card-text">
+                            Premium leather jacket made for a bold and modern style.
+                        </p>
+                        <p class="fw-bold">Rs. 14,999</p>
+                        <a href="#" class="btn btn-dark">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Why Choose Espada Men?</h2>
+            <p class="lead">
+                Premium quality, elegant designs, and modern fashion for every occasion.
+            </p>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2026 Espada Men. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
